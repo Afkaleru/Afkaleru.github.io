@@ -1,0 +1,21 @@
+background-image:https://us.123rf.com/450wm/jenifoto/jenifoto2004/jenifoto200400054/145114474-.jpg?ver=6
+h1 {color:darkviolet;font-family:"Arial Black";serif;}
+.box {border-style: solid;
+  		border-width: 1px;
+  		display: block;
+  		margin-left: auto;
+    margin-right: auto;
+  		width: 100px;
+ 		 height: 100px;
+  		background-color: #0000FF;
+  	-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  	transition: width 2s, height 2s, background-color 2s, transform 1s;}
+
+.box:hover {
+  background-color: #FFCCCC;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+img {width: 400px;height: 300px;}
